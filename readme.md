@@ -12,4 +12,4 @@ this.exports('slidenav')
 ```
 
 ### Preview
-<img class="shadow" src="resource/preview.png" />
+![preview](resource/preview.png)
