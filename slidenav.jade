@@ -1,0 +1,10 @@
+.lincoapp-slidenav
+    - list = list || [nav]
+    each nav in list
+        .nav
+            .scroll
+                ul
+                    each item, i in nav
+                        li: a(href="#{item.url}") #{item.value}
+                    .after
+            a.btn-add(href="#/catelist")
